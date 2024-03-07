@@ -52,6 +52,9 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Box as="footer" w="full" p={4} bg="gray.200" textAlign="center">
+        © {new Date().getFullYear()} - Todo App by Company
+      </Box>
     </VStack>
   );
 };
