@@ -52,6 +52,9 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Box as="footer" width="full" p={4} borderTop="1px" borderColor="gray.200" textAlign="center">
+        <Text fontSize="sm">© {new Date().getFullYear()} Todo App. All rights reserved.</Text>
+      </Box>
     </VStack>
   );
 };
